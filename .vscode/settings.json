@@ -1,9 +1,43 @@
 {
 	"idf.adapterTargetName": "esp32s3",
 	"idf.flashType": "UART",
-	"idf.portWin": "COM16",
+	"idf.portWin": "COM10",
 	"idf.port": "/dev/ttyACM0",
 	"idf.openOcdConfigs": [
 		"board/esp32s3-builtin.cfg"
-	]
+	],
+	"files.associations": {
+		"disp_spi.h": "c",
+		"ili9341.h": "c",
+		"*.rh": "cpp",
+		"any": "cpp",
+		"charconv": "cpp",
+		"chrono": "cpp",
+		"format": "cpp",
+		"forward_list": "cpp",
+		"iomanip": "cpp",
+		"ios": "cpp",
+		"iosfwd": "cpp",
+		"istream": "cpp",
+		"list": "cpp",
+		"optional": "cpp",
+		"ostream": "cpp",
+		"ranges": "cpp",
+		"regex": "cpp",
+		"sstream": "cpp",
+		"string": "cpp",
+		"variant": "cpp",
+		"vector": "cpp",
+		"xhash": "cpp",
+		"xiosbase": "cpp",
+		"xlocale": "cpp",
+		"xlocbuf": "cpp",
+		"xmemory": "cpp",
+		"xstring": "cpp",
+		"lvgl_helpers.h": "c",
+		"ili9488.h": "c",
+		"atomic": "cpp",
+		"memory": "cpp",
+		"system_error": "cpp"
+	}
 }
